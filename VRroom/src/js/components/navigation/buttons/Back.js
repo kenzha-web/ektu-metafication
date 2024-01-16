@@ -23,7 +23,8 @@ export default class Back extends React.Component {
 	}
 
 	redirect() {
-		window.location = 'http://localhost:3000/video/virtual-reality'
+		window.location =
+			'http://localhost:3000/video/introduction-to-vr-development'
 	}
 
 	fadeIn() {

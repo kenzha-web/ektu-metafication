@@ -1,7 +1,7 @@
 {
-  "name": "VR-Cinema-Website-with-React",
+  "name": "VR-Website-with-React",
   "version": "1.0.0",
-  "description": "Virtual Reality Booking System for cinemas",
+  "description": "Virtual Reality System",
   "dependencies": {
     "aframe": "^0.2.0",
     "aframe-core": "^0.1.6",
@@ -23,10 +23,6 @@
     "deploy": "rm -rf build && npm run build && cp index.html build/index.html && cp -a src/assets build",
     "deploymin": "rm -rf build && npm run build && gulp && cp src/index.html build/index.html && cp -a src/assets build"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/csepreghy/VR-Cinema-Website-with-React.js"
-  },
   "keywords": [
     "aframe",
     "react",
@@ -37,9 +33,6 @@
     "cinema",
     "booking"
   ],
-  "author": "Andras Csepreghy <andris788@gmail.com>",
-  "license": "Skyrel",
-  "homepage": "",
   "devDependencies": {
     "babel": "^6.3.13",
     "babel-core": "^6.3.15",
